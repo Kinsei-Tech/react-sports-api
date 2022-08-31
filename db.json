@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "email": "dorivaldo@email.com",
+      "password": "$2a$10$WUIS4MQSRek/vpHkyaXrgOPid9rKIWnH34JufMJDx.ouHKNgkYrv.",
+      "name": "Daniel Dorivaldo da Silva",
+      "id": 1,
+      "height": 1.82,
+      "weight": 80,
+      "age": 27,
+      "state": "Minas Gerais-MG",
+      "telephone": "30267633",
+      "isExercising?": true,
+      "positions": ["goleiro"]
+    },
+    {
+      "email": "palhari@email.com",
+      "password": "$2a$10$YYXsc0wSpWsryp1H8TB.euErMfwgVBNXsEIg.p82wAT/FbMffBnVG",
+      "name": "Débora Palhari",
+      "id": 2,
+      "height": 1.75,
+      "weight": 70,
+      "age": 25,
+      "state": "Minas Gerais-MG",
+      "telephone": "30254321",
+      "isExercising?": false,
+      "positions": ["atacante"]
+    },
+    {
+      "email": "jonas@email.com",
+      "password": "$2a$10$MEUxbVXoXJj0dLIBf.lfwetwipU/lE.KIztpzJOFve4HfXVWEZ/hW",
+      "name": "Jonas Meireles",
+      "height": 1.9,
+      "weight": 90,
+      "age": 30,
+      "state": "Minas Gerais-MG",
+      "telephone": "30267655",
+      "isExercising?": true,
+      "positions": ["pivô"],
+      "id": 3
+    },
+    {
+      "email": "roberto@email.com",
+      "password": "$2a$10$VezUq1OzX0Rn6hFzgcEiC.IRPMoDiNa0S/NTH1f9f/ubDlFJkyGDm",
+      "name": "Roberto Emerique",
+      "height": 1.9,
+      "weight": 90,
+      "age": 30,
+      "state": "Minas Gerais-MG",
+      "telephone": "30227655",
+      "isExercising?": true,
+      "positions": ["pivô", "zagueiro"],
+      "id": 4
+    }
+  ],
+  "teams": [
+    {
+      "name": "Pelada do Bairro",
+      "place": "Quadra da Escola Santa Helena",
+      "maxWeight": 100,
+      "maxAge": 40,
+      "userId": 2,
+      "description": "Busco pessoas para inteirar meu time de pelada aos domingos às 6 da manhã ",
+      "positionsSearchedFor": ["goleiro", "pivô"],
+      "id": 1
+    },
+    {
+      "name": "Meia Boca",
+      "place": "Quadra do Centro Comunitário",
+      "maxWeight": 100,
+      "maxAge": 40,
+      "userId": 1,
+      "description": "Busco pessoas para completar meu time de futsal aos sábaods às 17h",
+      "positionsSearchedFor": ["ala esquerda", "pivô"],
+      "id": 2
+    }
+  ],
+  "requests": [
+    {
+      "teamId": 2,
+      "teamName": "Meia Boca",
+      "userId": 2,
+      "userName": "Débora Palhari",
+      "id": 2
+    }
+  ],
+  "participants": []
+}

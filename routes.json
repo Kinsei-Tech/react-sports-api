@@ -1,0 +1,10 @@
+{
+  "users": 600,
+  "teams": 644,
+  "requests": 644,
+  "participants": 644,
+  "/teams/delete/:id": "/teams/:id",
+  "/requests/delete/:id": "/requests/:id",
+  "/teams/patch/:id": "/teams/:id",
+  "/users/patch/:id": "/users/:id"
+}
